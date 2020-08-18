@@ -11,7 +11,7 @@ import StyleTextInput from "../components/StyledTextInput";
 
 const HomeScreen = () => {
   return (
-    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+    <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
       <View style={styles.root}>
         <Text bold style={styles.title}>
           Notes
