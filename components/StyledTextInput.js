@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     height: 50,
     marginVertical: 15,
-    paddingHorizontal: 10,
+    paddingHorizontal: 16,
     alignItems: "center",
   },
   input: {
