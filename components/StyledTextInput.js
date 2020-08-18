@@ -1,6 +1,6 @@
 import React from "react";
 import { TextInput, View, StyleSheet } from "react-native";
-import { Icon } from "native-base";
+import { Icon, Fab } from "native-base";
 
 const StyledTextInput = (props) => {
   return (

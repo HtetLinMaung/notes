@@ -5,6 +5,7 @@ import {
   TouchableWithoutFeedback,
   Keyboard,
 } from "react-native";
+import { Fab, Icon } from "native-base";
 import Text from "../components/Text";
 import StyleTextInput from "../components/StyledTextInput";
 
@@ -17,6 +18,9 @@ const HomeScreen = () => {
         </Text>
         <Text style={styles.notecount}>0 notes</Text>
         <StyleTextInput placeholder="Search your notes" />
+        <Fab style={styles.fab}>
+          <Icon name="add" />
+        </Fab>
       </View>
     </TouchableWithoutFeedback>
   );
@@ -36,6 +40,9 @@ const styles = StyleSheet.create({
   notecount: {
     fontSize: 16,
     color: "#C9C7D5",
+  },
+  fab: {
+    backgroundColor: "#3369FF",
   },
 });
 
