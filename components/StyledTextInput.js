@@ -17,12 +17,13 @@ const styles = StyleSheet.create({
     backgroundColor: "#f0f0f0",
     borderRadius: 35,
     fontSize: 16,
-    height: 45,
+    height: 50,
     marginVertical: 15,
     paddingHorizontal: 10,
     alignItems: "center",
   },
   input: {
+    fontFamily: "Poppins",
     flex: 1,
   },
   icon: {

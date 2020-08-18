@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
   },
   notecount: {
     fontSize: 16,
+    color: "#C9C7D5",
   },
 });
 
